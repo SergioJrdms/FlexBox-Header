@@ -1,0 +1,35 @@
+body{
+    background: rgb(173, 245, 106);
+}
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li, a{
+    display: block;
+    padding: 10px;
+}
