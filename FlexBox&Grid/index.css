@@ -1,5 +1,5 @@
 body{
-    background: rgb(173, 245, 106);
+    background: rgb(173, 173, 173);
 }
 body, ul, li, p{
     margin: 0px;
@@ -8,19 +8,18 @@ body, ul, li, p{
     font-size: 1.2rem;
     font-family: Arial;
 }
-
 a{
     text-decoration: none;
     color: white;
 }
-
 .header{
     background: #1d1e20;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
+    box-shadow: black 1px 20px 90px;
 }
 .menu{
     display: flex;
@@ -32,4 +31,9 @@ a{
 .menu li, a{
     display: block;
     padding: 10px;
+}
+#icon{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
 }
